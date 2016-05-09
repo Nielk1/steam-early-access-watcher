@@ -4,6 +4,19 @@
     <meta charset="utf-8">
     <title>Early Access Watcher</title>
 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+	<style>
+		.itemWithModDate:after {
+			content:" (Updated " attr(data-date) ")";
+			font-size:0.8em;
+			font-weight:normal;
+			color:#9d9d9d;
+		}
+		a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
+	</style>
+	
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>
         // Show the contributors, thanks by the way
@@ -40,78 +53,89 @@
     </script>
 </head>
 <body>
-<h1>Games Listed Under Hiatus</h1>
-<p>This list features early access products that are currently in Hiatus based on one or more of the following conditions:
-<ul>
-<li>The developer clearly states they are currently in hiatus</li>
-<li>The developer has spoken or updated the status of their product within the last three to twelve months on Steam either using the Front Page or in the Discussions, but have not updated their product </li>
-</ul>
-</p>
-<p>Please note this classification is meant as a warning to potential buyers of a lack of updates (even something as small as a hot fix). </p>
-<p>This classification is a courtesy to early access developers by allowing their word to dictate the current status of their projects instead of me claiming it to be abandonware of principle of actions speaking louder than words.</p>
-<p>If the current products listed on this list are updated meaningfully before the twelve month mark, it will be removed. Each program on this list will be revisited by me every month to provide ample time for these products to do so.</p>
-<p>The full list of early access titles will be overseen every two months to ensure this list is kept up to date in a somewhat plausible manner.</p>
-<p>I recommend treating products on this list the same way you would any early access program, with a grain of salt. An update tomorrow can still lead to yearly silence.</p>
-<br/><br/>
+	<div class="container">
+		<h1>Games Listed Under Hiatus</h1>
+		<p>This list features early access products that are currently in Hiatus based on one or more of the following conditions:
+		<ul>
+		<li>The developer clearly states they are currently in hiatus</li>
+		<li>The developer has spoken or updated the status of their product within the last three to twelve months on Steam either using the Front Page or in the Discussions, but have not updated their product </li>
+		</ul>
+		</p>
+		<p>Please note this classification is meant as a warning to potential buyers of a lack of updates (even something as small as a hot fix). </p>
+		<p>This classification is a courtesy to early access developers by allowing their word to dictate the current status of their projects instead of me claiming it to be abandonware of principle of actions speaking louder than words.</p>
+		<p>If the current products listed on this list are updated meaningfully before the twelve month mark, it will be removed. Each program on this list will be revisited by me every month to provide ample time for these products to do so.</p>
+		<p>The full list of early access titles will be overseen every two months to ensure this list is kept up to date in a somewhat plausible manner.</p>
+		<p>I recommend treating products on this list the same way you would any early access program, with a grain of salt. An update tomorrow can still lead to yearly silence.</p>
+		<br/><br/>
 
-<h4>Game : Developer</h4>
-<ul id="lstHiatus">
-</ul>
+		<div class="panel panel-default">
+			<div class="panel-heading"><h4>Game : Developer</h4></div>
+			<ul id="lstHiatus" class="list-group">
+			</ul>
+		</div>
+		
+		<hr />
 
-<hr />
+		<h1>Games Listed Under Abandoned</h1>
+		<p>This list features early access products that are currently in Hiatus based on one or more of the following conditions:
+		<ul>
+		<li>The developer has explained that the game has been abandoned or progress has halted due to funding without a clear plan of action</li>
+		<li>The product has not been updated sense release into the early access program after a span of four months</li> 
+		<li>The product has not been updated and a lack of developer communication on Steam, examples being the Front Page or Discussions tab, for six months.</li>
+		<li>The product has not been updated even with communication from the developer in twelve months of the previous update</li>
+		<li>Developer releases another title or product on Steam with no support of the current title (no updates in six months)</li>
+		</ul></p>
+		<p>This classification is used to help warn potential buyers of products that are likely no longer in production. </p>
+		<p>Each program on this list will be revisited by me every month to ensure the products still qualify, but heavy consideration will be taken into account whether to remove it from the list.</p>
+		<p>The full list of early access titles will be overseen every two months to ensure this list is kept up to date in a somewhat plausible manner.</p>
+		<p>I recommend treating products on this list as if they are no longer in production. I take careful consideration of the products before placing them on this list and do not treat the label lightly. People can say they will update all they want, but actions speak louder than words.</p>
 
-Games Listed Under Abandoned
-<p>This list features early access products that are currently in Hiatus based on one or more of the following conditions:
-<ul>
-<li>The developer has explained that the game has been abandoned or progress has halted due to funding without a clear plan of action</li>
-<li>The product has not been updated sense release into the early access program after a span of four months</li> 
-<li>The product has not been updated and a lack of developer communication on Steam, examples being the Front Page or Discussions tab, for six months.</li>
-<li>The product has not been updated even with communication from the developer in twelve months of the previous update</li>
-<li>Developer releases another title or product on Steam with no support of the current title (no updates in six months)</li>
-</ul></p>
-<p>This classification is used to help warn potential buyers of products that are likely no longer in production. </p>
-<p>Each program on this list will be revisited by me every month to ensure the products still qualify, but heavy consideration will be taken into account whether to remove it from the list.</p>
-<p>The full list of early access titles will be overseen every two months to ensure this list is kept up to date in a somewhat plausible manner.</p>
-<p>I recommend treating products on this list as if they are no longer in production. I take careful consideration of the products before placing them on this list and do not treat the label lightly. People can say they will update all they want, but actions speak louder than words.</p>
-
-<h4>Game : Developer</h4>
-<ul id="lstAbandoned">
-</ul>
-
-<script src="scripts/games.js"></script>
-<script>
-    function returnIfExist(property) {
-        try {
-            return property;
-        } catch (err) {
-            return null
-        }
-    }
-    (function(){
-        var i=0;
-        games.forEach(function(game) {
-            i++
-            if(game.hiatus) {
-                var newItem = $('<li>');
-                newItem.text(game.game + " : " + game.developer.join(", "));
-                $('#lstHiatus').append(newItem);
-            }
-            if(game.abandoned) {
-                var newItem = $('<li>');
-                newItem.text(game.game + " : " + game.developer.join(", "));
-                $('#lstAbandoned').append(newItem);
-            }
-        });
-    })();
-    
-    /**
-    * from http://stackoverflow.com/a/8764051/992504
-    */
-    //function getURLParameter(name) {
-    //    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
-    //}
-</script>
+		<div class="panel panel-default">
+			<div class="panel-heading"><h4>Game : Developer</h4></div>
+			<ul id="lstAbandoned" class="list-group">
+			</ul>
+		</div>
+    </div>
+	
+	<script src="scripts/games.js"></script>
+	<script>
+		function returnIfExist(property) {
+			try {
+				return property;
+			} catch (err) {
+				return null
+			}
+		}
+		(function(){
+			var i=0;
+			games.forEach(function(game) {
+				i++
+				if(game.hiatus) {
+					var newItem = $('<li class="list-group-item itemWithModDate">');
+					newItem.text(game.game + " : " + game.developer.join(", "));
+					newItem.attr('data-date',new Date(game.updated/1000).toLocaleString());
+					$('#lstHiatus').append(newItem);
+				}
+				if(game.abandoned) {
+					var newItem = $('<li class="list-group-item itemWithModDate">');
+					newItem.text(game.game + " : " + game.developer.join(", "));
+					newItem.attr('data-date',new Date(game.updated/1000).toLocaleString());
+					$('#lstAbandoned').append(newItem);
+				}
+			});
+		})();
+		
+		/**
+		* from http://stackoverflow.com/a/8764051/992504
+		*/
+		//function getURLParameter(name) {
+		//    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+		//}
+	</script>
 
     <!--<footer class="hidden">By <strong><a href="https://github.com/Nielk1">Nielk1</a></strong>, thanks to <b></b> for their contributions.</footer>-->
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
