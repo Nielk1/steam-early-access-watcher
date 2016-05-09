@@ -7,7 +7,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "ACE - Arena: Cyber Evolution",
@@ -17,7 +17,7 @@ var games = [
     "appid": 285580,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Artizens",
@@ -27,7 +27,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Ascent - The Space Game",
@@ -37,7 +37,7 @@ var games = [
     "appid": 345010,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Autocraft",
@@ -47,7 +47,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Avenging Angel",
@@ -57,7 +57,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Barbara-Ian",
@@ -67,7 +67,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Barren Lands",
@@ -77,7 +77,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Bearzerkers",
@@ -87,7 +87,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Bernie Needs Love",
@@ -97,7 +97,7 @@ var games = [
     "appid": 373120,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Bitardia",
@@ -107,7 +107,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Blessed Ones: The Magic Wolves",
@@ -117,7 +117,7 @@ var games = [
     "appid": 424310,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Blockade 3D",
@@ -127,7 +127,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "BOID",
@@ -137,7 +137,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Boundless",
@@ -147,7 +147,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Cannibal",
@@ -157,7 +157,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Chime Sharp",
@@ -168,7 +168,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Crash Dummy",
@@ -178,7 +178,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Crawl",
@@ -188,7 +188,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Courier of the Crypts",
@@ -198,7 +198,7 @@ var games = [
     "appid": 362940,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Delver",
@@ -208,7 +208,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Divinia Chronicles: Relics of Gan-Ti",
@@ -218,7 +218,7 @@ var games = [
     "appid": 302810,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Dolgoth",
@@ -228,7 +228,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Don't Be Patchman",
@@ -238,7 +238,7 @@ var games = [
     "appid": 378410,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Drift 84",
@@ -248,7 +248,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Drifter",
@@ -258,7 +258,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Dubwars",
@@ -268,7 +268,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Energy Hook",
@@ -278,7 +278,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Evolution",
@@ -288,7 +288,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Face It - A game to fight inner demons",
@@ -298,7 +298,7 @@ var games = [
     "appid": 364050,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "FaeVerse Alchemy",
@@ -308,7 +308,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Forsaken Fortress Strategy",
@@ -318,7 +318,7 @@ var games = [
     "appid": 344820,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Fringes of the Empire",
@@ -328,7 +328,7 @@ var games = [
     "appid": 402970,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Frontiers",
@@ -338,7 +338,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Galaxy Admirals",
@@ -348,7 +348,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Games of Glory",
@@ -358,7 +358,7 @@ var games = [
     "appid": 342150,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Golden Rush",
@@ -368,7 +368,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Grand Designer",
@@ -378,7 +378,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Gunjitsu",
@@ -388,7 +388,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "HAWKEN",
@@ -398,7 +398,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "House of Nightmares B-Movie Edition",
@@ -408,7 +408,7 @@ var games = [
     "appid": 365290,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Indie Assault",
@@ -419,7 +419,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Invasion: Brain Craving",
@@ -429,7 +429,7 @@ var games = [
     "appid": 423710,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Ironkraft - Road to Hell",
@@ -439,7 +439,7 @@ var games = [
     "appid": 397020,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "JamG",
@@ -449,7 +449,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Jet Racing Extreme",
@@ -459,7 +459,7 @@ var games = [
     "appid": 385270,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Jumpdrive",
@@ -469,7 +469,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Krai Mira",
@@ -479,7 +479,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Legend of Dungeon: Masters",
@@ -489,7 +489,7 @@ var games = [
     "appid": 405980,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Lift It!",
@@ -499,7 +499,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "M4 Tank Brigade",
@@ -509,7 +509,7 @@ var games = [
     "appid": 348810,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Magician's Apprentice",
@@ -519,7 +519,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Martial Law",
@@ -529,7 +529,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "M.A.V.",
@@ -539,7 +539,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "MechRunner",
@@ -549,7 +549,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Melody's Escape",
@@ -559,7 +559,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Monsters!",
@@ -569,7 +569,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Nature's Zombie Apocalypse",
@@ -579,7 +579,7 @@ var games = [
     "appid": 378530,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Of Guards and Thieves",
@@ -589,7 +589,7 @@ var games = [
     "appid": 302590,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Oncoming Death Steam Edition",
@@ -600,7 +600,7 @@ var games = [
     "appid": 288000,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Orbitor",
@@ -610,7 +610,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Organic Panic",
@@ -620,7 +620,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Press X to Not Die",
@@ -630,7 +630,7 @@ var games = [
     "appid": 402330,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Professor Why: The Quantum Eye",
@@ -640,7 +640,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Pulsen",
@@ -650,7 +650,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Radial-G: Racing Revolved",
@@ -660,7 +660,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Restricted-RPS - The Swindler's Tournament Arc",
@@ -671,7 +671,7 @@ var games = [
     "appid": 364960,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Road Redemption",
@@ -682,7 +682,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Rodina",
@@ -692,7 +692,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Rogue Continuum",
@@ -702,7 +702,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Rothschild: The Sheep will Wake",
@@ -712,7 +712,7 @@ var games = [
     "appid": 413490,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Servo",
@@ -722,7 +722,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Shut up and Dig",
@@ -733,7 +733,7 @@ var games = [
     "appid": 414070,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "SinaRun",
@@ -743,7 +743,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Slam",
@@ -753,7 +753,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Space Drifters 2D",
@@ -763,7 +763,7 @@ var games = [
     "appid": 377570,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Spark Rising",
@@ -773,7 +773,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Stacks TNT",
@@ -783,7 +783,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Starbound",
@@ -793,7 +793,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Starwalker",
@@ -803,7 +803,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Storm United",
@@ -813,7 +813,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Strange Space",
@@ -823,7 +823,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Subaeria",
@@ -833,7 +833,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Sunken",
@@ -843,7 +843,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Teddy Terror",
@@ -853,7 +853,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Terra Incognita ~ Chapter One: The Descendant",
@@ -863,7 +863,7 @@ var games = [
     "appid": 347560,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Terminal Hacker - Into the Deep",
@@ -873,7 +873,7 @@ var games = [
     "appid": 342540,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "The Cosmos is Mine!",
@@ -883,7 +883,7 @@ var games = [
     "appid": 347220,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "The Falling Sun",
@@ -893,7 +893,7 @@ var games = [
     "appid": 333740,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "The Fifth Day",
@@ -903,7 +903,7 @@ var games = [
     "appid": 312210,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "The Grand Canyon VR Experience",
@@ -914,7 +914,7 @@ var games = [
     "appid": 407710,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "The Joylancer: Legendary Motor Knight",
@@ -924,7 +924,7 @@ var games = [
     "appid": 315540,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "The Repopulation",
@@ -934,7 +934,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "The Way of Life",
@@ -948,7 +948,7 @@ var games = [
     "appid": 310370,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Time Machine VR",
@@ -958,7 +958,7 @@ var games = [
     "appid": 356180,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Undeads",
@@ -969,7 +969,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Urban Legends",
@@ -979,7 +979,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Volo Airsports",
@@ -989,7 +989,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Warriors and Castles",
@@ -999,7 +999,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Warside",
@@ -1009,7 +1009,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Warmode",
@@ -1019,7 +1019,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Xsyon - Prelude",
@@ -1029,7 +1029,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "You are not the Hero",
@@ -1039,7 +1039,7 @@ var games = [
     "appid": 268970,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Zombie Office Politics",
@@ -1049,7 +1049,7 @@ var games = [
     "appid": 412860,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Zombie Playground",
@@ -1059,7 +1059,7 @@ var games = [
     "appid": null,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "Zxill: A Legend of Time",
@@ -1070,7 +1070,7 @@ var games = [
     "appid": 397830,
     "hiatus": true,
     "abandoned": false,
-    "updated": 1458501240000000
+    "updated": 1458501240000
   },
   {
     "game": "10 Years After",
@@ -1080,7 +1080,7 @@ var games = [
     "appid": 339240,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "1953: NATO vs Warsaw Pact",
@@ -1090,7 +1090,7 @@ var games = [
     "appid": 325470,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "ABD: A Beautiful Day",
@@ -1103,7 +1103,7 @@ var games = [
     "appid": 384920,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Asteroids: Outpost",
@@ -1113,7 +1113,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Atajrubah",
@@ -1123,7 +1123,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Aware",
@@ -1135,7 +1135,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Axes and Arrows",
@@ -1145,7 +1145,7 @@ var games = [
     "appid": 406400,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Backstage Pass",
@@ -1155,7 +1155,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Badland Bandits",
@@ -1165,7 +1165,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Bot Colony Season One: Landfall",
@@ -1175,7 +1175,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Break_In",
@@ -1185,7 +1185,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Calibre 10 Racing",
@@ -1195,7 +1195,7 @@ var games = [
     "appid": 266370,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Children of Liberty",
@@ -1205,7 +1205,7 @@ var games = [
     "appid": 264440,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Claustrophobia: The Downward Struggle",
@@ -1215,7 +1215,7 @@ var games = [
     "appid": 269590,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Collateral",
@@ -1225,7 +1225,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Colossal Kaiju Combat: Kaijuland Battles",
@@ -1236,7 +1236,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Conquest of Champions",
@@ -1246,7 +1246,7 @@ var games = [
     "appid": 266450,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Containment Protocol",
@@ -1256,7 +1256,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "CubeZ",
@@ -1266,7 +1266,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Damned Nation Reborn",
@@ -1276,7 +1276,7 @@ var games = [
     "appid": 345710,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Dead Realm",
@@ -1286,7 +1286,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Decromancer",
@@ -1296,7 +1296,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Deepworld",
@@ -1306,7 +1306,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Dragon Rider",
@@ -1317,7 +1317,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Dream Factory",
@@ -1327,7 +1327,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Dungeon Dashers",
@@ -1337,7 +1337,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Dungeon of gain",
@@ -1347,7 +1347,7 @@ var games = [
     "appid": 340030,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Earth Under Siege",
@@ -1357,7 +1357,7 @@ var games = [
     "appid": 324450,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Ensign-1",
@@ -1367,7 +1367,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Epic Space Online",
@@ -1377,7 +1377,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Erwin's Timewarp",
@@ -1387,7 +1387,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Escape Machines",
@@ -1397,7 +1397,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Fancy Skulls",
@@ -1407,7 +1407,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "FL33T",
@@ -1417,7 +1417,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Forest Warrior",
@@ -1427,7 +1427,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Friendship Club",
@@ -1437,7 +1437,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Gravi",
@@ -1447,7 +1447,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Hollow's Land",
@@ -1457,7 +1457,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Infect and Destroy",
@@ -1467,7 +1467,7 @@ var games = [
     "appid": 305660,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Infinite Game Works Episode 1",
@@ -1477,7 +1477,7 @@ var games = [
     "appid": 327000,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Instinct",
@@ -1487,7 +1487,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Interstellar Marines",
@@ -1497,7 +1497,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Isomer",
@@ -1507,7 +1507,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Janky Tanks",
@@ -1517,7 +1517,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Kingdoms Rise",
@@ -1527,7 +1527,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Landmark",
@@ -1537,7 +1537,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Level Up!",
@@ -1547,7 +1547,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Lonath Online",
@@ -1557,7 +1557,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Lup",
@@ -1567,7 +1567,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Magnetron",
@@ -1577,7 +1577,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Malevolence: The Sword of Ahkranox",
@@ -1587,7 +1587,7 @@ var games = [
     "appid": 268930,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Man Alive",
@@ -1597,7 +1597,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Mech Marines: Steel March",
@@ -1607,7 +1607,7 @@ var games = [
     "appid": 335940,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Mission Control: NanoMech",
@@ -1617,7 +1617,7 @@ var games = [
     "appid": 338030,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Montas",
@@ -1627,7 +1627,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Nanos",
@@ -1637,7 +1637,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Nekro",
@@ -1647,7 +1647,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "New kind of adventure",
@@ -1657,7 +1657,7 @@ var games = [
     "appid": 375510,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Pluck",
@@ -1667,7 +1667,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Protocol",
@@ -1677,7 +1677,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Purgatory: War of the Damned",
@@ -1687,7 +1687,7 @@ var games = [
     "appid": 284910,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Race Online",
@@ -1697,7 +1697,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Recruits",
@@ -1708,7 +1708,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Reverse Side",
@@ -1718,7 +1718,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Rift's Cave",
@@ -1728,7 +1728,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Second Warfare",
@@ -1738,7 +1738,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Serious Sam Classics: Revolutions",
@@ -1749,7 +1749,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Shot in the Dark",
@@ -1759,7 +1759,7 @@ var games = [
     "appid": 372820,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Siege of Inaolia",
@@ -1769,7 +1769,7 @@ var games = [
     "appid": 312270,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "SilverQuest: Gaiden",
@@ -1779,7 +1779,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Skyflower",
@@ -1789,7 +1789,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Smashmuck Champions",
@@ -1799,7 +1799,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Soccer Legends",
@@ -1809,7 +1809,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Solar System Conflict",
@@ -1819,7 +1819,7 @@ var games = [
     "appid": 349670,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Spectre",
@@ -1829,7 +1829,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Spy Bugs",
@@ -1839,7 +1839,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "StarForce: 2193",
@@ -1849,7 +1849,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Steel Storm A.M.M.O.",
@@ -1859,7 +1859,7 @@ var games = [
     "appid": 251790,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "SuperBike TT",
@@ -1869,7 +1869,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Super Dungeon Run",
@@ -1879,7 +1879,7 @@ var games = [
     "appid": 382480,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Tail Drift",
@@ -1889,7 +1889,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Temporal Shift",
@@ -1899,7 +1899,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "The Facility",
@@ -1909,7 +1909,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Timber and Stone",
@@ -1920,7 +1920,7 @@ var games = [
     "appid": 408990,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "TOTM",
@@ -1930,7 +1930,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "TUG",
@@ -1940,7 +1940,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Undead Overlord",
@@ -1950,7 +1950,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Voice of Pripyat",
@@ -1960,7 +1960,7 @@ var games = [
     "appid": 269530,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Vol'Talkes - The AI War",
@@ -1970,7 +1970,7 @@ var games = [
     "appid": 347050,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Vox",
@@ -1980,7 +1980,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Voxelized",
@@ -1990,7 +1990,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Warhammer 40k: Dark Nexus Arena",
@@ -2000,7 +2000,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Wild Warfare",
@@ -2010,7 +2010,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Wolfwars",
@@ -2020,7 +2020,7 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Zen Fish SIM",
@@ -2030,7 +2030,7 @@ var games = [
     "appid": 321310,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   },
   {
     "game": "Zone 22",
@@ -2040,6 +2040,6 @@ var games = [
     "appid": null,
     "hiatus": false,
     "abandoned": true,
-    "updated": 1461662220000000
+    "updated": 1461662220000
   }
 ]

@@ -119,7 +119,7 @@
 					}
 					newItem.addClass("list-group-item itemWithModDate");
 					newItem.text(game.game + " : " + game.developer.join(", "));
-					newItem.attr('data-date',new Date(game.updated/1000).toLocaleString());
+					newItem.attr('data-date',new Date(game.updated).toLocaleString());
 					$('#lstHiatus').append(newItem);
 				}
 				if(game.abandoned) {
@@ -131,7 +131,7 @@
 					}
 					newItem.addClass("list-group-item itemWithModDate");
 					newItem.text(game.game + " : " + game.developer.join(", "));
-					newItem.attr('data-date',new Date(game.updated/1000).toLocaleString());
+					newItem.attr('data-date',new Date(game.updated).toLocaleString());
 					$('#lstAbandoned').append(newItem);
 				}
 			});
