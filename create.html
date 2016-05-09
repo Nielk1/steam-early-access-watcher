@@ -107,8 +107,8 @@
 					})
 					.each(function(idx,elem){tmp.developer.push($(elem).val());});
 				tmp.appid = txtAppID.val().length > 0  ? parseInt(txtAppID.val()) : null;
-				tmp.hiatus = optionsRadiosHiatus.is('checked');
-				tmp.abandoned = optionsRadiosAbandoned.is('checked');
+				tmp.hiatus = optionsRadiosHiatus.is(':checked')
+				tmp.abandoned = optionsRadiosAbandoned.is(':checked')
 				tmp.updated = new Date().getTime();
 				
 				txtCode.val(JSON.stringify(tmp, null, 4));
