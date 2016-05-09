@@ -87,7 +87,7 @@ Games Listed Under Abandoned
             return null
         }
     }
-    function(){
+    (function(){
         // Add spans placeholders for the lazy-load
         var i=0;
         games.forEach(function(game) {
@@ -103,7 +103,7 @@ Games Listed Under Abandoned
                 $('#lstAbandoned').append(newItem);
             }
         }
-    }();
+    })();
     
     /**
     * from http://stackoverflow.com/a/8764051/992504
