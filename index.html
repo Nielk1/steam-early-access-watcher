@@ -40,7 +40,6 @@
     </script>
 </head>
 <body>
-<div align="center">
 <h1>Games Listed Under Hiatus</h1>
 <p>This list features early access products that are currently in Hiatus based on one or more of the following conditions:
 <ul>
@@ -79,9 +78,8 @@ Games Listed Under Abandoned
 <div id="lstAbandoned">
 </div>
 
-</div>
-    <script src="scripts/games.js"></script>
-    <script>
+<script src="scripts/games.js"></script>
+<script>
     function returnIfExist(property) {
         try {
             return property;
@@ -89,25 +87,24 @@ Games Listed Under Abandoned
             return null
         }
     }
-	function() {
-		
+    function{
         // Add spans placeholders for the lazy-load
         var i=0;
         games.forEach(function(game) {
             i++
             //var li = document.createElement('tr')
             
-            
-			  }
-    }()
+        
+        }
+    }();
     
     /**
-     * from http://stackoverflow.com/a/8764051/992504
-     */
+    * from http://stackoverflow.com/a/8764051/992504
+    */
     //function getURLParameter(name) {
     //    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
     //}
-    </script>
+</script>
 
     <!--<footer class="hidden">By <strong><a href="https://github.com/Nielk1">Nielk1</a></strong>, thanks to <b></b> for their contributions.</footer>-->
 </body>
