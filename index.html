@@ -70,8 +70,8 @@
 
 		<div class="panel panel-default">
 			<div class="panel-heading"><h4>Game : Developer</h4></div>
-			<ul id="lstHiatus" class="list-group">
-			</ul>
+			<div id="lstHiatus" class="list-group">
+			</div>
 		</div>
 		
 		<hr />
@@ -92,8 +92,8 @@
 
 		<div class="panel panel-default">
 			<div class="panel-heading"><h4>Game : Developer</h4></div>
-			<ul id="lstAbandoned" class="list-group">
-			</ul>
+			<div id="lstAbandoned" class="list-group">
+			</div>
 		</div>
     </div>
 	
@@ -111,13 +111,25 @@
 			games.forEach(function(game) {
 				i++
 				if(game.hiatus) {
-					var newItem = $('<li class="list-group-item itemWithModDate">');
+					var newItem = null;
+					if(game.appid != null) {
+						newItem = $('<a href="https://steamcommunity.com/app/' + game.appid + '" target="_blank">');
+					} else {
+						newItem = $('<div>');
+					}
+					newItem.addClass("list-group-item itemWithModDate");
 					newItem.text(game.game + " : " + game.developer.join(", "));
 					newItem.attr('data-date',new Date(game.updated/1000).toLocaleString());
 					$('#lstHiatus').append(newItem);
 				}
 				if(game.abandoned) {
-					var newItem = $('<li class="list-group-item itemWithModDate">');
+					var newItem = null;
+					if(game.appid != null) {
+						newItem = $('<a href="https://steamcommunity.com/app/' + game.appid + '" target="_blank">');
+					} else {
+						newItem = $('<div>');
+					}
+					newItem.addClass("list-group-item itemWithModDate");
 					newItem.text(game.game + " : " + game.developer.join(", "));
 					newItem.attr('data-date',new Date(game.updated/1000).toLocaleString());
 					$('#lstAbandoned').append(newItem);
@@ -132,7 +144,7 @@
 		//    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
 		//}
 	</script>
-
+https://steamcommunity.com/app/
     <!--<footer class="hidden">By <strong><a href="https://github.com/Nielk1">Nielk1</a></strong>, thanks to <b></b> for their contributions.</footer>-->
 
 	<!-- Latest compiled and minified JavaScript -->
