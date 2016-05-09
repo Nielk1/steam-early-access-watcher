@@ -55,8 +55,8 @@
 <br/><br/>
 
 <h4>Game : Developer</h4>
-<div id="lstHiatus">
-</div>
+<ul id="lstHiatus">
+</ul>
 
 <hr />
 
@@ -75,8 +75,8 @@ Games Listed Under Abandoned
 <p>I recommend treating products on this list as if they are no longer in production. I take careful consideration of the products before placing them on this list and do not treat the label lightly. People can say they will update all they want, but actions speak louder than words.</p>
 
 <h4>Game : Developer</h4>
-<div id="lstAbandoned">
-</div>
+<ul id="lstAbandoned">
+</ul>
 
 <script src="scripts/games.js"></script>
 <script>
@@ -87,14 +87,21 @@ Games Listed Under Abandoned
             return null
         }
     }
-    function{
+    function(){
         // Add spans placeholders for the lazy-load
         var i=0;
         games.forEach(function(game) {
             i++
-            //var li = document.createElement('tr')
-            
-        
+            if(game.hiatus) {
+                var newItem = $('<li>');
+                newItem.text(game.game + " : " + game.developer.join(", "));
+                $('#lstHiatus').append(newItem);
+            }
+            if(game.abandoned) {
+                var newItem = $('<li>');
+                newItem.text(game.game + " : " + game.developer.join(", "));
+                $('#lstAbandoned').append(newItem);
+            }
         }
     }();
     
