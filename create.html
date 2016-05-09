@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Early Access Watcher : Create Item</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        // Show the contributors, thanks by the way
+/*$(document).ready($.ajax('https://api.github.com/repos/nielk1/steam-early-access-watcher/contributors')
+        .done(function(contributors) {
+            $('footer')
+                .find('b').html(function() {
+                    return _(contributors)
+                    .map(function(contributor) {
+                        if (contributor.login !== 'Nielk1')
+                            return $('<a>')
+                                .attr('href', contributor.html_url)
+                                .text(contributor.login)
+                                .appendTo('<div>')
+                                .parent()
+                                .html()
+                    })
+                    .compact()
+                    .value()
+                    .join(', ')
+                }).end()
+            .toggleClass('hidden shown');
+			var contributors = function() { return $('footer').find('b').find('a').not(":last");};
+			var height = function(){var div = $('<footer>').appendTo('body');div.html('hi');var height = div.height();div.remove();return height+5;}
+			if($('footer').height() > height()) {
+				$('footer').find('b').after("<b>, <a href='//github.com/nielk1/steam-early-access-watcher/contributors'>...</a></b>");
+				for(i=0; i<contributors().length;i++)
+					if($('footer').height() > height()) {
+						contributors()[contributors().length-1].previousSibling.remove();
+						contributors()[contributors().length-1].remove();
+					}
+			}
+        }));*/
+    </script>
+</head>
+<body>
+	<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-heading"><h4>Create JSON</h4></div>
+			<div class="panel-body">
+				<div class="form-group">
+					<label for="txtAppID">AppID</label>
+					<input type="number" class="form-control" id="txtAppID" placeholder="AppID">
+				</div>
+				<div class="form-group">
+					<label for="txtName">Name</label>
+					<input type="text" class="form-control" id="txtName" placeholder="Name">
+				</div>
+				<div class="form-group" id="grpDevelopers">
+					<label>Developer(s)</label>
+					<input type="text" class="form-control txtDeveloper" placeholder="Developer">
+				</div>
+				<div class="form-group" id="grpDevelopers">
+					<label>Status</label>
+					<div class="radio"><label><input type="radio" name="optionsRadios" id="optionsRadiosHiatus" value="Hiatus" checked>Hiatus</label></div>
+					<div class="radio"><label><input type="radio" name="optionsRadios" id="optionsRadiosAbandoned" value="Abandoned">Abandoned</label></div>
+				</div>
+			</div>
+			<div class="panel-footer" style="text-align: right;"><button id="btnGenerate" class="btn btn-success">Generate</button></div>
+		</div>
+		<div class="panel panel-default">
+			<textarea id="txtCode" class="form-control" rows="10"></textarea>
+		</div>
+    </div>
+	
+	<script src="scripts/games.js"></script>
+	<script>
+		$(document).ready(function() {
+			var txtAppID = $('#txtAppID');
+			var txtName = $('#txtName');
+			var grpDevelopers = $('#grpDevelopers');
+			var optionsRadiosHiatus = $('#optionsRadiosHiatus');
+			var optionsRadiosAbandoned = $('#optionsRadiosAbandoned');
+			var btnGenerate = $('#btnGenerate');
+			var txtCode = $('#txtCode');
+			
+			grpDevelopers.on('change','.txtDeveloper',function(evt) {
+				var formItems = grpDevelopers.children('.txtDeveloper');
+				var emptyItems = formItems.filter(function(idx,elem){return $(elem).val().length == 0});
+				var isBlank = emptyItems.length > 0;
+				emptyItems = emptyItems.not(emptyItems.last());
+				emptyItems.remove();
+				if(!isBlank) {
+					grpDevelopers.append('<input type="text" class="form-control txtDeveloper" placeholder="Developer">');
+				}
+			});
+			
+			btnGenerate.on('click',function(evt){
+				var tmp = {};
+				tmp.game = txtName.val();
+				tmp.developer = [];
+				grpDevelopers
+					.children('.txtDeveloper')
+					.filter(function(idx,elem) {
+						return $(elem).val().length > 0;
+					})
+					.each(function(idx,elem){tmp.developer.push($(elem).val());});
+				tmp.appid = txtAppID.val().length > 0  ? parseInt(txtAppID.val()) : null;
+				tmp.hiatus = optionsRadiosHiatus.is('checked');
+				tmp.abandoned = optionsRadiosAbandoned.is('checked');
+				tmp.updated = new Date().getTime();
+				
+				txtCode.val(JSON.stringify(tmp, null, 4));
+			});
+		});
+		
+		/**
+		* from http://stackoverflow.com/a/8764051/992504
+		*/
+		//function getURLParameter(name) {
+		//    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+		//}
+	</script>
+
+    <!--<footer class="hidden">By <strong><a href="https://github.com/nielk1">Nielk1</a></strong>, thanks to <b></b> for their contributions.</footer>-->
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>

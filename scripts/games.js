@@ -1,4 +1,4 @@
-var games = [
+var early_access_watcher_games = [
   {
     "game": "Abducted",
     "developer": [
