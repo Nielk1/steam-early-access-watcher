@@ -88,7 +88,6 @@ Games Listed Under Abandoned
         }
     }
     (function(){
-        // Add spans placeholders for the lazy-load
         var i=0;
         games.forEach(function(game) {
             i++
@@ -102,7 +101,7 @@ Games Listed Under Abandoned
                 newItem.text(game.game + " : " + game.developer.join(", "));
                 $('#lstAbandoned').append(newItem);
             }
-        }
+        });
     })();
     
     /**
