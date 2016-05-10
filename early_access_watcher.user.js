@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Steam Early Access Watcher
 // @namespace    http://nielk1.com/
-// @version      0.2
+// @version      0.3
 // @description  Add Early Access Watcher markers to games
 // @author       Nielk1
 // @match        *://store.steampowered.com/*
@@ -130,10 +130,18 @@ div.seaw_hiatus_header .heading a {\
                             marker.setAttribute('class','seaw_overlay');
                             if(game.hiatus) marker.src = imgHiatus;
                             if(game.abandoned) marker.src = imgAbandoned;
-                            marker.style = "height: 28.125px; width: initial; bottom: 0;";
+                            marker.style = "height: 28.125px; width: 28.125px; bottom: 0;";
                             var capsl = element[elementidx].getElementsByClassName('search_capsule');
-                            capsl[0].insertBefore(marker, capsl[0].firstChild);
-                            element[elementidx].setAttribute('data-seaw-marked','true');
+                            if(capsl !== null && capsl.length > 0) {
+                                capsl[0].insertBefore(marker, capsl[0].firstChild);
+                                element[elementidx].setAttribute('data-seaw-marked','true');
+                            }
+                            var caps2 = element[elementidx].getElementsByClassName('match_img');
+                            console.log('tmp');
+                            if(caps2 !== null && caps2.length > 0) {
+                                caps2[0].insertBefore(marker, caps2[0].firstChild);
+                                element[elementidx].setAttribute('data-seaw-marked','true');
+                            }
                         }
                     }
                 }
