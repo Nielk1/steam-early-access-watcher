@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Steam Early Access Watcher
 // @namespace    http://nielk1.com/
-// @version      0.3
+// @version      0.4
 // @description  Add Early Access Watcher markers to games
 // @author       Nielk1
 // @match        *://store.steampowered.com/*
@@ -153,11 +153,11 @@ div.seaw_hiatus_header .heading a {\
                             var newsection = document.createElement('div');
                             if(game.hiatus) {
                                 newsection.setAttribute('class','seaw_hiatus_header');
-                                newsection.innerHTML = '<div class="heading"><h1 class="inset">Early Access Watcher</h1><h2 class="inset">This game is on the Early Access Watcher <a href="http://steamcommunity.com/groups/earlyaccesswatcher/discussions/1/385428458179286616/">Hiatus List</a>.</h2></div>';
+                                newsection.innerHTML = '<div class="heading"><h1 class="inset">Early Access Watcher</h1><h2 class="inset">This game is on the Early Access Watcher <a href="http://steamcommunity.com/groups/earlyaccesswatcher/discussions/1/385428458179286616/">Hiatus List</a>.</h2><p>Last Checked: ' + new Date(game.updated).toLocaleString() + '</p></div>';
                             }
                             if(game.abandoned){
                                 newsection.setAttribute('class','seaw_abandoned_header');
-                                newsection.innerHTML = '<div class="heading"><h1 class="inset">Early Access Watcher</h1><h2 class="inset">This game is on the Early Access Watcher <a href="http://steamcommunity.com/groups/earlyaccesswatcher/discussions/1/385428458179603991/">Abandoned List</a>.</h2></div>';
+                                newsection.innerHTML = '<div class="heading"><h1 class="inset">Early Access Watcher</h1><h2 class="inset">This game is on the Early Access Watcher <a href="http://steamcommunity.com/groups/earlyaccesswatcher/discussions/1/385428458179603991/">Abandoned List</a>.</h2><p>Last Checked: ' + new Date(game.updated).toLocaleString() + '</p></div>';
                             }
                             descriptionarea[0].insertBefore(newsection, descriptionarea[0].firstChild);
                             descriptionarea[0].setAttribute('data-seaw-marked','true');
