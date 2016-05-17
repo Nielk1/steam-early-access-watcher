@@ -1,6 +1,8 @@
 # steam-early-access-watcher
 Steam Early Access information from http://steamcommunity.com/groups/earlyaccesswatcher
 
+# Viewing
+http://nielk1.github.io/steam-early-access-watcher/
 
 # Editing
 JSON creation tool: http://nielk1.github.io/steam-early-access-watcher/create.html
