@@ -38,3 +38,6 @@ var early_access_watcher_games = [
   }
 ]
 ```
+
+Edit the file and be sure to preserve JSON formatting.
+https://github.com/Nielk1/steam-early-access-watcher/blob/gh-pages/scripts/games.js
