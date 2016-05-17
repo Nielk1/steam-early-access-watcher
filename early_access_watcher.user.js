@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Steam Early Access Watcher
 // @namespace    http://nielk1.com/
-// @version      0.4
+// @version      0.5
 // @description  Add Early Access Watcher markers to games
 // @author       Nielk1
 // @match        *://store.steampowered.com/*
@@ -116,7 +116,7 @@ div.seaw_hiatus_header .heading a {\
     color: inherit;\
     text-decoration: underline;\
 }');
-    
+
     function update_eaw() {
         for(var gameidx = 0; gameidx < early_access_watcher_games.length; gameidx++) {
             var game = early_access_watcher_games[gameidx];
@@ -125,21 +125,17 @@ div.seaw_hiatus_header .heading a {\
                     var element = document.querySelectorAll('a[data-ds-appid="' + game.appid + '"]:not([data-seaw-marked="true"])');
                     if(element !== null && element.length > 0) {
                         for(var elementidx = 0; elementidx < element.length; elementidx++) {
-                            var marker = document.createElement('img');
-                            //marker.addClassName('es_overlay');
-                            marker.setAttribute('class','seaw_overlay');
-                            if(game.hiatus) marker.src = imgHiatus;
-                            if(game.abandoned) marker.src = imgAbandoned;
-                            marker.style = "height: 28.125px; width: 28.125px; bottom: 0;";
-                            var capsl = element[elementidx].getElementsByClassName('search_capsule');
-                            if(capsl !== null && capsl.length > 0) {
-                                capsl[0].insertBefore(marker, capsl[0].firstChild);
+                            var targetImage = null;
+                            if(game.hiatus) targetImage = imgHiatus;
+                            if(game.abandoned) targetImage = imgAbandoned;
+                            var caps1 = element[elementidx].getElementsByClassName('search_capsule');
+                            if(caps1 !== null && caps1.length > 0) {
+                                caps1[0].innerHTML = '<span class="seaw_overlay_container"><span class="seaw_overlay" style="height: 28.125px; width: 28.125px; bottom: 0; background-size: cover; left: 90px; background-image:url(' + targetImage + ');"/></span>' + caps1[0].innerHTML + '</span>';
                                 element[elementidx].setAttribute('data-seaw-marked','true');
                             }
                             var caps2 = element[elementidx].getElementsByClassName('match_img');
-                            console.log('tmp');
                             if(caps2 !== null && caps2.length > 0) {
-                                caps2[0].insertBefore(marker, caps2[0].firstChild);
+                                caps2[0].innerHTML = '<span class="seaw_overlay_container"><span class="seaw_overlay" style="height: 28.125px; width: 28.125px; bottom: 0; background-size: cover; left: 90px; background-image:url(' + targetImage + ');"/></span>' + caps2[0].innerHTML + '</span>';
                                 element[elementidx].setAttribute('data-seaw-marked','true');
                             }
                         }
@@ -174,7 +170,7 @@ div.seaw_hiatus_header .heading a {\
         script.async = true;
         script.onload = function(){
             update_eaw();
-            setInterval(function(){ update_eaw(); }, 3000);
+            setInterval(function(){ update_eaw(); }, 1000); // unless I can hook the needed functions
         };
         script.src = 'http://nielk1.github.io/steam-early-access-watcher/scripts/games.js';
         d.getElementsByTagName('head')[0].appendChild(script);
