@@ -4,7 +4,7 @@ var early_access_watcher_games = [
     "developer": [
       "Sunside Inc"
     ],
-    "appid": null,
+    "appid": 299580,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -24,7 +24,7 @@ var early_access_watcher_games = [
     "developer": [
       "Artizens Inc."
     ],
-    "appid": null,
+    "appid": 339540,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -44,7 +44,7 @@ var early_access_watcher_games = [
     "developer": [
       "Alientrap"
     ],
-    "appid": null,
+    "appid": 287220,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -54,7 +54,7 @@ var early_access_watcher_games = [
     "developer": [
       "Dark Amber Softworks"
     ],
-    "appid": null,
+    "appid": 367240,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -64,7 +64,7 @@ var early_access_watcher_games = [
     "developer": [
       "Owlbear"
     ],
-    "appid": null,
+    "appid": 380860,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -84,7 +84,7 @@ var early_access_watcher_games = [
     "developer": [
       "Wildgrass"
     ],
-    "appid": null,
+    "appid": 325300,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -104,7 +104,7 @@ var early_access_watcher_games = [
     "developer": [
       "varlamov5264"
     ],
-    "appid": null,
+    "appid": 405010,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -120,11 +120,11 @@ var early_access_watcher_games = [
     "updated": 1458501240000
   },
   {
-    "game": "Blockade 3D",
+    "game": "BLOCKADE 3D",
     "developer": [
       "Shumkov Dmitriy"
     ],
-    "appid": null,
+    "appid": 302830,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -134,7 +134,7 @@ var early_access_watcher_games = [
     "developer": [
       "Mokus"
     ],
-    "appid": null,
+    "appid": 314010,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -144,7 +144,7 @@ var early_access_watcher_games = [
     "developer": [
       "Wonderstruck"
     ],
-    "appid": null,
+    "appid": 324510,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -154,7 +154,7 @@ var early_access_watcher_games = [
     "developer": [
       "Gametek Brasil"
     ],
-    "appid": null,
+    "appid": 350800,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -165,7 +165,7 @@ var early_access_watcher_games = [
       "Ste Curran",
       "Twistplay"
     ],
-    "appid": null,
+    "appid": 326520,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -175,7 +175,7 @@ var early_access_watcher_games = [
     "developer": [
       "Twelve Games"
     ],
-    "appid": null,
+    "appid": 345690,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
@@ -185,7 +185,7 @@ var early_access_watcher_games = [
     "developer": [
       "Powerhoof"
     ],
-    "appid": null,
+    "appid": 293780,
     "hiatus": true,
     "abandoned": false,
     "updated": 1458501240000
